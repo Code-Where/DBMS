@@ -1,0 +1,54 @@
+#outputframe{
+    height: 100%;
+    width: 90%;
+    overflow-y: scroll;
+    margin: auto;
+}
+#outputframe pre, #outputframe p{
+    width: 80%;
+    background-color: rgba(2, 2, 2, 0.9);
+    color: white;
+    font-family: consolas;
+    padding: 2vh 4vh;
+    font-size: 1.3em;
+    overflow-x: scroll;
+    border-radius: 10px;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 3vh;
+}
+#outputframe h1,#outputframe h2{
+    margin: 4vh 0;
+    text-align: center;
+}
+#outputframe table{
+    width: 100%;
+    font-size: 18px;
+    font-family: consolas;
+    margin: 10px 0px;
+    padding: 3px;
+    border: 1px dashed white;
+    border-radius: 5px;
+}
+#outputframe table th, #outputframe table td{
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+}
+#outputframe table th{
+    text-align: center;
+}
+.dark{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 81%;
+    border-radius: 10px;
+    background-color: rgb(73, 68, 68);
+    padding: 20px;
+    h2{
+        color: white;
+    }
+}
+caption{
+    color: white;
+}
